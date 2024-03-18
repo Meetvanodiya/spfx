@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mploye-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mploye/MployeWebPart.js",
+          "manifest": "./src/webparts/mploye/MployeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MployeWebPartStrings": "lib/webparts/mploye/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
